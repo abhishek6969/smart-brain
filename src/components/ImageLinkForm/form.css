@@ -1,0 +1,4 @@
+.form{
+  width : 700px;
+  background: linear-gradient(45deg, rgb(221, 204, 170) 12%, transparent 0px, transparent 88%, rgb(221, 204, 170) 0px) 0% 0% / 25px 25px, linear-gradient(135deg, transparent 37%, rgb(170, 136, 85) 0px, rgb(170, 136, 85) 63%, transparent 0px), linear-gradient(45deg, transparent 37%, rgb(221, 204, 170) 0px, rgb(221, 204, 170) 63%, transparent 0px) rgb(119, 85, 51); --darkreader-inline-bgimage:linear-gradient(45deg, #332101 12%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 88%, #332101 0px), linear-gradient(135deg, rgba(0, 0, 0, 0) 37%, #8a6835 0px, #8a6835 63%, rgba(0, 0, 0, 0) 0px), linear-gradient(45deg, rgba(0, 0, 0, 0) 37%, #332101 0px, #332101 63%, rgba(0, 0, 0, 0) 0px); --darkreader-inline-bgcolor:#573513;
+}
