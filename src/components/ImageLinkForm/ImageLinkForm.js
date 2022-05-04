@@ -11,7 +11,7 @@ const ImageLinkForm = ({onInputChange,onSubmit})=>{
       <div className="flex justify-center">
         <div className="flex justify-center pa4 br3 shadow-5 grow form">
           <input  className="f4 pa2 w-70 center" type="tex" onChange={onInputChange} />
-          <button className="pointer w-30 grow f4 link ph3 dib white bg-light-red"
+          <button className="pointer w-30 grow f4 link ph3 dib black bg-light-red"
           onClick={onSubmit}
           >Detect!</button>
         </div>

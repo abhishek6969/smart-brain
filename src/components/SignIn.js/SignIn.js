@@ -38,7 +38,7 @@ class SignIn extends Component{
     const { onRouteChange } = this.props;
     return(
       <article className="br3 ba mv4 w-100 w-50-m w-25-l mw7 center shadow-5">
-        <main className="pa4 black-80">
+        <main className="pa4 white-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
               <legend className="f4 fw6 ph0 mh0">Sign In</legend>
@@ -55,7 +55,7 @@ class SignIn extends Component{
                 <label className="db fw6 lh-copy f6" >Password</label>
                 <input
                 onChange={this.onPasswordChange} 
-                className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" 
+                className="b pa2 input-reset ba bg-transparent hover-bg-black hover-black w-100" type="password" 
                 name="password"  
                 id="password"/>
               </div>
@@ -64,12 +64,12 @@ class SignIn extends Component{
             <div className="">
               <input 
               onClick={this.onSubmit}
-              className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
+              className="b ph3 pv2 white input-reset ba b--white bg-transparent grow pointer f6 dib" 
               type="submit" 
               value="Sign in"/>
             </div>
             <div className="lh-copy mt3">
-              <p onClick = {()=>onRouteChange('register')} className="f6 link dim black db pointer">Register </p>
+              <p onClick = {()=>onRouteChange('register')} className="f6 link dim white db pointer">Register </p>
             </div>
           </div>
         </main>
